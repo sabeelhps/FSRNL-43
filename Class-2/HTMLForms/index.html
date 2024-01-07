@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Forms</h1>
+
+    <form action="">
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" name="myemail" id="email">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password" name="mypassword" id="password">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- http://127.0.0.1:5500/HTMLForms/index.html?myemail=abc%40gmail.com&mypassword=12345 -->
+    
+    <h2>Google Hijack</h2>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search On Google" name="q">
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- https://www.google.com/search?q=pizzas -->
+
+</body>
+</html>
