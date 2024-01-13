@@ -1,0 +1,12 @@
+/* External */
+figure{
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure img{
+    width: 100%;
+}

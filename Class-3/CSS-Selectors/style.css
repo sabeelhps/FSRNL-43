@@ -1,0 +1,124 @@
+/* Basic selectors */
+
+/* Universal Selector */
+
+*{
+    border: 1px solid gray;
+}
+
+
+/* Element Selector */
+
+h1{
+    color: palevioletred;
+    text-align: center;
+}
+
+
+/* Id Selector */
+
+#special{
+    color: orange;
+    font-size: 24px;
+}
+
+#article{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: palevioletred;
+}
+
+
+
+/* Class Selector */
+
+.fav-movie{
+    font-weight: bold;
+    color: lightcoral;
+}
+
+
+/* Descendent Selector */
+
+section p strong{
+    font-weight: bold;
+    color: blue;
+}
+
+.fav-movie em{
+    font-size: 30px;
+}
+
+/* Attribute Selector */
+ol li a[href="http://facebook.com"]{
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+}
+
+input[required]{
+    background-color: blue;
+}
+
+/* Pseudo Selectors */
+
+#article:hover{
+    background-color: palegreen;
+    border-radius: 50%;
+}
+
+input:disabled{
+    background-color: aqua;
+}
+
+ol li a:visited{
+    color: green;
+}
+
+h1:active{
+    font-size: 50px;
+}
+
+/* Pseudo Structural Selectors(Classes) */
+
+#last-section p:first-child{
+    color: red;
+}
+
+#last-section p:last-child{
+    color: green;
+}
+
+#last-section p:nth-of-type(3){
+    color: orange;
+    font-weight: bold;
+}
+
+#last-section p:nth-of-type(6){
+    color: blue;
+    font-weight: bold;
+}
+
+#last-section p:nth-of-type(even){
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#last-section p:nth-of-type(odd){
+    color: lightgrey;
+    font-weight: bold;
+}
+
+/* section ol li:nth-of-type(An+B), where A is the interval and B is the offset */
+
+section ol li:nth-of-type(3n+2){
+    color: orange;
+}
+
+/* Adjacent Selector */
+
+h4+p{
+   color: lightskyblue;
+   text-decoration: line-through; 
+}

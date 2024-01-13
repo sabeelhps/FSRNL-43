@@ -1,0 +1,18 @@
+p{
+    /* border */
+    border: 3px solid brown;
+
+    /* dimentions- height and width */
+    width: 200px;
+
+    /* margin */
+    margin: 70px;
+    /* margin: 30px 40px 50px 60px; */
+    /* margin: 30px 40px; */
+    /* margin: 30px auto; */
+
+    /* padding */
+
+    padding: 30px;
+    /* auto keyword should not be used for padding */
+}
