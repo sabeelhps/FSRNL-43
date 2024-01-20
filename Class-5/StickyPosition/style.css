@@ -1,0 +1,8 @@
+div{
+    border: 2px solid black;
+    background-color: #00ffff;
+    font-size: 2rem;
+    margin-bottom: 70px;
+    position: sticky;
+    top: 10px;
+}

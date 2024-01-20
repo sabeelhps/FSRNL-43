@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-size: 1.5rem;
+    background-color: #3d5a80;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (width<=630px){
+    nav, ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
