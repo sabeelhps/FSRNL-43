@@ -1,0 +1,49 @@
+========toLowerCase() and toUpperCase()
+
+str.toLowerCase()
+'geeksforgeeks'
+str 
+'GeeksforGeeks'
+const allUpperCase = str.toUpperCase()
+undefined
+allUpperCase
+'GEEKSFORGEEKS'
+str 
+'GeeksforGeeks'
+
+
+============= trim()==============
+
+const greeting = "  Hello world     ";
+undefined
+greeting
+'  Hello world     '
+greeting.trim()
+'Hello world'
+greeting
+'  Hello world     '
+
+
+
+===========================substring()==============
+
+str
+'GeeksforGeeks'
+str.substring(3)
+'ksforGeeks'
+str 
+'GeeksforGeeks'
+str.substring(3, 8)
+'ksfor'
+
+
+==========================indexOf()=================
+
+const msg = "Hello, how are you";
+undefined
+msg 
+'Hello, how are you'
+msg.indexOf("are")
+11
+msg.indexOf("cat")
+-1

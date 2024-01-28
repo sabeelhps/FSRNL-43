@@ -1,0 +1,91 @@
+const arr = ["sabeel", 23, true, null, undefined, ["abc","def"]]
+undefined
+arr
+(6) ['sabeel', 23, true, null, undefined, Array(2)]
+arr[0]
+'sabeel'
+arr[1]
+23
+arr[5]
+(2) ['abc', 'def']
+arr[5][0]
+'abc'
+arr.length
+6
+
+
+
+
+const fruits = ['apple','grapes','oranges','pineapple','papaya'];
+undefined
+fruits
+(5) ['apple', 'grapes', 'oranges', 'pineapple', 'papaya']
+fruits.push('banana','guava');
+7
+fruits
+(7) ['apple', 'grapes', 'oranges', 'pineapple', 'papaya', 'banana', 'guava']
+const lastFruit = fruits.pop();
+undefined
+lastFruit
+'guava'
+fruits
+(6) ['apple', 'grapes', 'oranges', 'pineapple', 'papaya', 'banana']
+fruits.pop()
+'banana'
+fruits
+(5) ['apple', 'grapes', 'oranges', 'pineapple', 'papaya']
+
+
+
+const fruits = ['apple','grapes','oranges','pineapple','papaya'];
+undefined
+fruits.unshift('guava','cherry','mango');
+8
+fruits
+(8) ['guava', 'cherry', 'mango', 'apple', 'grapes', 'oranges', 'pineapple', 'papaya']
+const firstFruit = fruits.shift()
+undefined
+firstFruit
+'guava'
+fruits
+(7) ['cherry', 'mango', 'apple', 'grapes', 'oranges', 'pineapple', 'papaya']
+
+
+
+const fruits = ['apple','grapes','oranges','pineapple','papaya'];
+undefined
+fruits
+(5) ['apple', 'grapes', 'oranges', 'pineapple', 'papaya']
+fruits.indexOf('oranges')
+2
+fruits.indexOf('mango')
+-1
+fruits.includes('mango')
+false
+fruits.includes('papaya')
+true
+
+
+const nums = [1,2,3,4,5];
+undefined
+nums
+(5) [1, 2, 3, 4, 5]
+nums.join('-->')
+'1-->2-->3-->4-->5'
+
+
+
+=================Reference Type========
+
+colors
+(7) ['blue', 'green', 'red', 'orange', 'purple', 'gray', 'white']
+colorsCopy
+(7) ['blue', 'green', 'red', 'orange', 'purple', 'gray', 'white']
+colors === colorsCopy
+true
+const actualCopy = colors.slice();
+undefined
+actualCopy
+(7) ['blue', 'green', 'red', 'orange', 'purple', 'gray', 'white']
+colors === actualCopy
+false

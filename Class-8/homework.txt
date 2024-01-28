@@ -1,0 +1,4 @@
+1. Read about slice method - Arrays.
+2. Read about the diff b/w == and ===.
+3. Paractice problems using js basics.
+4. Explore methods on arrays - concat, slice, splice, reverse.
