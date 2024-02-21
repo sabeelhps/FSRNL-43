@@ -1,0 +1,11 @@
+.heading{
+    border: 2px dashed black;
+    text-align: center;
+    padding: 1rem;
+    color: palevioletred;
+}
+
+.main-heading{
+    background-color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
